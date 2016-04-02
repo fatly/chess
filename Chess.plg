@@ -1,0 +1,73 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Chess - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Liyongfa\AppData\Local\Temp\RSPC8CB.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Chess.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\Downloads\xqs\BaiDlg.cpp"
+"F:\Downloads\xqs\BaseClasses.cpp"
+"F:\Downloads\xqs\BaseDef.cpp"
+"F:\Downloads\xqs\Chess.cpp"
+"F:\Downloads\xqs\ChessDlg.cpp"
+"F:\Downloads\xqs\CoolButton.cpp"
+"F:\Downloads\xqs\OpenDlg.cpp"
+"F:\Downloads\xqs\OptionDlg.cpp"
+"F:\Downloads\xqs\StepList.cpp"
+"F:\Downloads\xqs\Thinker.cpp"
+"F:\Downloads\xqs\ThinkOptionDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\Liyongfa\AppData\Local\Temp\RSPC8CB.tmp" 
+Creating temporary file "C:\Users\Liyongfa\AppData\Local\Temp\RSPC8CC.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Chess.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\Downloads\xqs\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Liyongfa\AppData\Local\Temp\RSPC8CC.tmp" 
+Creating temporary file "C:\Users\Liyongfa\AppData\Local\Temp\RSPC8CD.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Chess.pdb" /debug /machine:I386 /out:"Debug/Chess.exe" /pdbtype:sept 
+.\Debug\BaiDlg.obj
+.\Debug\BaseClasses.obj
+.\Debug\BaseDef.obj
+.\Debug\Chess.obj
+.\Debug\ChessDlg.obj
+.\Debug\CoolButton.obj
+.\Debug\OpenDlg.obj
+.\Debug\OptionDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\StepList.obj
+.\Debug\Thinker.obj
+.\Debug\ThinkOptionDlg.obj
+.\Debug\Chess.res
+]
+Creating command line "link.exe @C:\Users\Liyongfa\AppData\Local\Temp\RSPC8CD.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+BaiDlg.cpp
+BaseClasses.cpp
+BaseDef.cpp
+Chess.cpp
+ChessDlg.cpp
+CoolButton.cpp
+OpenDlg.cpp
+OptionDlg.cpp
+StepList.cpp
+Thinker.cpp
+ThinkOptionDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Chess.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
